@@ -20,7 +20,6 @@
     margin: 0 auto 10px;
     border-radius: 100%;
     overflow: hidden;
-    background-color: $dark;
   }
   img {
     width: 100%;
@@ -141,7 +140,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  min-height: 11rem;
+  min-height: 15rem;
   border-radius: 10px;
   overflow: hidden;
   transition: all .3s ease;
@@ -152,9 +151,9 @@ footer {
   }
 
   .post-thumbnail {
-    width: 30%;
+    width: 70%;
     max-width: 100%;
-    min-height: 11rem;
+    min-height: 15rem;
     background-size: cover;
     background-position: 50% 50%;
   }
