@@ -5,6 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/evereal/evereal-homepage",
   "author": "Evereal",
+  "scripts": {
+    "install": "gem install bundler && bundle install",
+    "build": "jekyll build"
+  },
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.18.13",
