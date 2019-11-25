@@ -6,6 +6,7 @@
   "repository": "https://github.com/evereal/evereal-homepage",
   "author": "Evereal",
   "scripts": {
+    "start": "bundle exec jekyll serve --watch",
     "install": "gem install bundler && bundle install",
     "build": "jekyll build"
   },

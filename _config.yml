@@ -20,7 +20,7 @@ social-email: dev@evereal.com # add your Email address
 discus-identifier: eve-real # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-134146948-5
 
 # Build Settings
 markdown: kramdown

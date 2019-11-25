@@ -6,6 +6,7 @@ description: Video Capture is a plugin that enables the developers to capture vi
 img: video-capture-pro.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [VR, '360', Video]
+asset: https://assetstore.unity.com/packages/tools/video/video-capture-pro-155663
 ---
 
 Video Capture is a plugin that enables the developers to capture video and audio from your Unity application.
