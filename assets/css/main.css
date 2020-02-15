@@ -1722,3 +1722,23 @@ article .youtube_video {
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
 }
+
+.widget-display {
+  display: none;
+}
+
+.widget-display-mobile {
+  display: flex;
+  justify-content: center;
+}
+
+@media(min-width: 576px) {
+  .widget-display-mobile {
+    display: none;
+  }
+
+  .widget-display {
+    display: flex;
+    justify-content: center;
+  }
+}
