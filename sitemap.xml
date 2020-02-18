@@ -6,7 +6,7 @@ layout: null
   {% for page in site.pages %}
     {% if page.sitemap != null and page.sitemap != empty %}
       <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
+        <loc>{{ site.baseurl }}{{ site.url }}{{ page.url }}</loc>
         {% if page.sitemap %}
           {% if page.sitemap.lastmod %}
           <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
@@ -23,7 +23,7 @@ layout: null
   {% endfor %}
   {% for product in site.products %}
     <url>
-      <loc>{{ site.url }}{{ product.url }}</loc>
+      <loc>{{ site.baseurl }}{{ site.url }}{{ product.url }}</loc>
       {% if product.lastmod == null %}
         <lastmod>{{ product.date | date_to_xmlschema }}</lastmod>
       {% else %}
@@ -35,7 +35,7 @@ layout: null
   {% endfor %}
   {% for post in site.posts %}
     <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
+      <loc>{{ site.baseurl }}{{ site.url }}{{ post.url }}</loc>
       {% if post.lastmod == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       {% else %}
