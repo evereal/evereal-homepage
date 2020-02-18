@@ -21,6 +21,18 @@ layout: null
        </url>
     {% endif %}
   {% endfor %}
+  {% for product in site.products %}
+    <url>
+      <loc>{{ site.url }}{{ product.url }}</loc>
+      {% if product.lastmod == null %}
+        <lastmod>{{ product.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ product.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
   {% for post in site.posts %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
