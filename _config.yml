@@ -1,35 +1,66 @@
-title: Evereal | Unity VR, AR and Video Plugins
-description: > # this means to ignore newlines until "baseurl:"
-  I am a Unity developer focus on VR, AR and Video related projects. Always hungry to keep learning.
-permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://evereal.com" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# Site
+name: Evereal
+description: Game Assets for VR, AR and Video
+meta_description: Game Assets for VR, AR and Video
+logo: /assets/images/logo.png
+favicon: /assets/images/favicon.ico
+paginate: 6
+baseurl:
+email: 'dev@evereal.com'
+google_analytics: UA-134146948-5
+disqus: eve-real
 
-# Author Settings
-author: Evereal # add your name
-author-img: evereal.png # add your photo
-about-author: I am a Unity developer focus on VR, AR and Video related projects. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: evereal # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: dev@evereal.com # add your Email address
+# Authors
+authors:
+  john:
+    name: evereal
+    display_name: Evereal
+    image: /assets/images/logo.png
+    email: dev@evereal.com
+    web: evereal.com
+    twitter:
+    description: Hi, I am Evereal.
 
-# Disqus
-discus-identifier: eve-real # add your discus identifier
+# Collections
+collections:
+  products:
+    output: true
+    permalink: /products/:path/
 
-# Tracker
-analytics: UA-134146948-5
-
-# Build Settings
-markdown: kramdown
+# Plugins
 plugins:
-  - jekyll-sitemap
+  # - jekyll-archives
   - jekyll-paginate
-  - jemoji
+  - jekyll-seo-tag
 
-paginate: 8
-paginate_path: "/page/:num"
+permalinks: pretty
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+# Archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: 'category/:name/'
+
+# Other
+markdown: kramdown
+highlighter: rouge
+
+# SEO
+twitter:
+  username:
+  card: summary
+
+facebook:
+  app_id:
+  publisher: evereal.com
+  admins:
+
+social:
+name: Evereal
+links:
+    - https://twitter.com/
+    - https://www.facebook.com/
+    - https://www.linkedin.com/
+    - https://github.com/

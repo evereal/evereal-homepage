@@ -4,7 +4,8 @@ The official website for Evereal
 ## Get Started
 ```
 bundle install
-bundle exec jekyll serve
+
+npm start
 ```
 
 ## License

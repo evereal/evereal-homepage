@@ -1,0 +1,21 @@
+<!-- begin product -->
+<div class="col-md-6 grid-item">
+<div class="card">
+    <a href="{{ product.url | absolute_url }}">
+        {% if product.cover %} <img class="img-fluid" src="{{ site.baseurl }}/{{ product.cover }}" alt="{{ product.title }}"> {% endif %}
+    </a>
+    <div class="card-block">
+        <h2 class="card-title"><a href="{{ product.url | absolute_url }}">{{ product.title }}</a></h2>
+        <h4 class="card-text">{{ product.excerpt | strip_html | truncatewords:30 }}</h4>
+        <div class="metafooter">
+            <div class="wrapfooter">
+                <a class="btn btn-primary" href="{{ product.url | absolute_url }}">View Details</a>
+                </span>
+                <span class="post-read-more"><a target="_blank" href="{{ product.asset-store-url }}" title="Visit Asset Store"><i class="fa fa-link"></i></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- end product -->

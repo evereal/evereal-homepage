@@ -3,22 +3,12 @@
   "version": "1.0.0",
   "description": "The official website for Evereal",
   "main": "index.js",
-  "repository": "https://github.com/evereal/evereal-homepage",
+  "repository": "https://github.com/evereal/homepage",
   "author": "Evereal",
   "scripts": {
     "start": "bundle exec jekyll serve --watch",
     "install": "gem install bundler && bundle install",
     "build": "jekyll build"
   },
-  "license": "MIT",
-  "dependencies": {
-    "browser-sync": "^2.18.13",
-    "child_process": "^1.0.2",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-cache": "^0.4.6",
-    "gulp-imagemin": "^6.1.1",
-    "gulp-sass": "^3.1.0",
-    "imagemin-pngquant": "^8.0.0"
-  }
+  "license": "GNU General Public License v3.0"
 }

@@ -1,32 +1,39 @@
 ---
-layout: main
+layout: default
+title: VR/AR Developer
 ---
-{% for post in paginator.posts %}
-<article class="post">
-  <a class="post-thumbnail"
-    style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})"
-    href="{{post.url | prepend: site.baseurl}}"></a>
-  {% if post.affiliate-icon %}
-  <img src="{{post.affiliate-icon}}" alt="{{post.title}}" width="0"
-    height="0" />
-  {% endif %}
-  <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 100 }}</p>
-    <!-- <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span> -->
-    <!-- <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span> -->
-    <div class="post-tag">
-      {% for tag in post.tags %}
-      <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
-      {% endfor %}
-    </div>
-    {% if post.asset %}
-    <a class="project-link" href="{{ post.url }}">View Details</a>
-    {% else %}
-    <div class="project-link">Comming soon</div>
-    {% endif %}
-  </div>
-</article>
-{% endfor %}
+</div>
+</div>
+<!-- We've temporary closed main-content and container to have a full width intro -->
+<!-- Home Jumbotron
+================================================== -->
+<section class="intro">
+<center>
+<img src="/assets/images/logo.png" height="128px" width="128px" alt="Evereal">
+<br><br>
+<h1 style="color:white">Hi, I am <span>Evereal.</span></h1>
+<br>
+<h3>VR/AR Developer</h3>
+<br>
+<a target="_blank" href="https://assetstore.unity.com/publishers/26911" class="btn">Visit my unity asset store</a>
+</center>
+</section>
 
-<!-- {% include pagination.html %} -->
+<!-- We reopen main-content and container -->
+<div class="container">
+<div class="main-content">
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Products</span></h2>
+    </div>
+    <div class="row listfeaturedtag">
+        {% assign sorted_products = site.products | sort: "order" %}
+        {% for product in sorted_products %}
+            {% include product-card.html %}
+        {% endfor %}
+    </div>
+</section>
+
+</section>

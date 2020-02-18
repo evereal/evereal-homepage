@@ -1,0 +1,26 @@
+<!-- begin product card -->
+<div class="col-sm-6">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-5 wrapthumbnail">
+                <a href="{{ product.url | absolute_url }}">
+                    <div class="thumbnail" style="background-image:url({{ site.baseurl }}/{{ product.cover}});"></div>
+                </a>
+            </div>
+            <div class="col-md-7">
+                <div class="card-block">
+                    <h2 class="card-title"><a href="{{ product.url | absolute_url }}">{{ product.title }}</a></h2>
+                    <h4 class="card-text">{{ product.summary | strip_html | truncatewords: 20 }}</h4>
+                    <div class="metafooter">
+                        <div class="wrapfooter">
+                            <a class="btn btn-primary" href="{{ product.url | absolute_url }}">View Details</a>
+                            <span class="post-read-more"><a target="_blank" href="{{ product.asset-store-url }}" title="Visit Asset Store"><i class="fa fa-link"></i></a></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end product card -->

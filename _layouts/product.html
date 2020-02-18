@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<!-- Begin Article -->
+
+<div class="row">
+
+  <!-- Product -->
+  <div class="col-sm-8">
+    <div class="mainheading">
+
+      <!-- Product Tags -->
+      <div class="after-post-tags">
+        <ul class="tags">
+          {% for tag in page.tags %}
+          <li>
+            <span>{{ tag }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <!-- End Tags -->
+
+      <!-- Product Title -->
+      <h1 class="posttitle">{{ page.title }}</h1>
+    </div>
+
+    <!-- Post Featured cover -->
+    {% if page.youtube-id %}
+    <!-- Youtube Intro -->
+    {% include youtube.html id=page.youtube-id %}
+    {% elsif page.cover %}
+    <img class="featured-cover img-fluid" src="{{ site.baseurl }}/{{ page.cover }}" alt="{{ page.title }}" width="100%">
+    {% endif %}
+    <!-- End Featured cover -->
+    <br>
+
+    <!-- Product Content -->
+    <div class="article-post">
+      {{content}}
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="sharethis-inline-share-buttons"></div>
+    <br>
+
+    <!-- Begin Comments -->
+    <section>
+      <div id="comments">
+        {% include disqus.html %}
+      </div>
+    </section>
+    <!--End Comments -->
+
+	</div>
+	<!-- End Product -->
+
+  <!-- Sidebar -->
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
+</div>
+
+<!-- End Article -->
+
+<!-- Youtube Support -->
+{% include lazyload-youtube.html %}
