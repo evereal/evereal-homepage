@@ -748,6 +748,14 @@ a.btn {
     border-color: #675bff;
 }
 
+.btn-buy {
+    width: 100% !Important;
+    background: #2ab2fe;
+    border-color: #2ab2fe;
+    height: auto;
+    padding: 12px 20px;
+}
+
 .btn.follow {
     border-color: #6FD350;
     color: #6FD350;
@@ -1028,7 +1036,7 @@ img {
     height: auto;
 }
 
-.bottompagination span.navigation {}
+/* .bottompagination span.navigation {} */
 
 .bottompagination span.navigation a {
     background: #008744;
