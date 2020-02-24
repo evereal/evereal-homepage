@@ -4,8 +4,8 @@ cover:  assets/images/video-capture-pro-unity-plugin/cover.png
 title: Video Capture Pro Unity Plugin
 tags: ['Video Capture', 'GPU Encoder', 'Unity Plugin']
 summary: Video Capture is a plugin that enables the developers to capture video and audio from your Unity application.
-asset-store-url: https://assetstore.unity.com/packages/tools/video/video-capture-pro-155663
-asset-store-widget: https://api.assetstore.unity3d.com/affiliate/embed/package/155663/widget
+asset-store-url: https://assetstore.unity.com/packages/tools/video/video-capture-pro-155663?aid=1100l9ebS
+asset-store-widget: https://assetstore.unity.com/linkmaker/embed/package/155663/widget?aid=1100l9ebS
 order: 1
 youtube-id: Jz6CONdDWDg
 ---

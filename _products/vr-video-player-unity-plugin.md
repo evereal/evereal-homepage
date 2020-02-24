@@ -4,8 +4,8 @@ cover:  assets/images/vr-video-player-unity-plugin/cover.png
 title: VR Video Player Unity Plugin
 tags: ['Video Player', 'VR', '360', 'Unity Plugin']
 summary: VR Video Player will help you to setup virtual reality video experience in your Unity application.
-asset-store-url: https://assetstore.unity.com/packages/tools/video/vr-video-player-82597
-asset-store-widget: https://api.assetstore.unity3d.com/affiliate/embed/package/82597/widget
+asset-store-url: https://assetstore.unity.com/packages/tools/video/vr-video-player-82597?aid=1100l9ebS
+asset-store-widget: https://assetstore.unity.com/linkmaker/embed/package/82597/widget?aid=1100l9ebS
 order: 3
 youtube-id: h86tbW6l5B4
 ---
