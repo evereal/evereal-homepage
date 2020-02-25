@@ -45,13 +45,15 @@ layout: default
     </div>
 
     <!-- Buy Now -->
-    {% if page.simplegood-url %}
+    {% if page.payhip-product-id %}
     <center>
       <a
-        href="{{ page.simplegood-url }}"
-        class="btn btn-buy"
-        >Buy Now - {{ page.price }}
-      </a>
+        href="https://payhip.com/b/{{ page.payhip-product-id }}"
+        class="payhip-buy-button btn-buy"
+        data-theme="blue"
+        data-product="{{ page.payhip-product-id }}"
+        >Buy Now - ${{ page.price }}</a
+      >
     </center>
     <br />
     <br />

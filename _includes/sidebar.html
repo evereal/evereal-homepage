@@ -1,13 +1,15 @@
 <div class="sidebar">
-  {% if page.simplegood-url %}
+  {% if page.payhip-product-id %}
   <div class="sidebar-section">
-    <h5><span>Buy Now</span></h5>
+    <h5><span>Buy This Product</span></h5>
     <center>
       <a
-        href="{{ page.simplegood-url }}"
-        class="btn btn-buy"
-        >Buy Now - {{ page.price }}
-      </a>
+        href="https://payhip.com/b/{{ page.payhip-product-id }}"
+        class="payhip-buy-button btn-buy"
+        data-theme="blue"
+        data-product="{{ page.payhip-product-id }}"
+        >Buy Now - ${{ page.price }}</a
+      >
     </center>
   </div>
   {% endif %}
