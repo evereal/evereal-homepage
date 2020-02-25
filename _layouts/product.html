@@ -45,13 +45,12 @@ layout: default
     </div>
 
     <!-- Buy Now -->
-    {% if page.payhip-product-id %}
+    {% if page.gumroad-store-url %}
     <center>
       <a
-        href="https://payhip.com/b/{{ page.payhip-product-id }}"
-        class="payhip-buy-button btn-buy"
-        data-theme="blue"
-        data-product="{{ page.payhip-product-id }}"
+        class="gumroad-button btn-buy"
+        href="{{ page.gumroad-store-url }}"
+        target="_blank"
         >Buy Now - ${{ page.price }}</a
       >
     </center>

@@ -1,19 +1,17 @@
 <div class="sidebar">
-  {% if page.payhip-product-id %}
+  {% if page.gumroad-store-url %}
   <div class="sidebar-section">
     <h5><span>Buy This Product</span></h5>
     <center>
       <a
-        href="https://payhip.com/b/{{ page.payhip-product-id }}"
-        class="payhip-buy-button btn-buy"
-        data-theme="blue"
-        data-product="{{ page.payhip-product-id }}"
+        class="gumroad-button btn-buy"
+        href="{{ page.gumroad-store-url }}"
+        target="_blank"
         >Buy Now - ${{ page.price }}</a
       >
     </center>
   </div>
   {% endif %}
-
   {% if page.asset-store-widget %}
   <div class="sidebar-section">
     <h5><span>Buy from Asset Store</span></h5>
