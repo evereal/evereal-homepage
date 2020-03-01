@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<!-- Begin Article -->
+
+<div class="row">
+  <!-- Product -->
+  <div class="col-sm-8">
+    <div class="mainheading">
+
+      <!-- Product Title -->
+      <h1 class="posttitle">{{ page.title }}</h1>
+    </div>
+
+    <!-- Product Content -->
+    <div class="article-post">
+      {{content}}
+      <div class="clearfix"></div>
+    </div>
+
+  </div>
+  <!-- End Product -->
+
+  <!-- Sidebar -->
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
+</div>
+
+<!-- End Article -->
