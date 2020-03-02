@@ -124,7 +124,7 @@
 
 .youtube {
   background-color: #000;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   position: relative;
   padding-top: 56.25%;
   overflow: hidden;
@@ -141,7 +141,7 @@
 
 .youtube img {
   width: 100%;
-  top: -16.84%;
+  top: 0;
   left: 0;
   -ms-filter: none;
   -webkit-filter: none;
