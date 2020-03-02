@@ -27,7 +27,8 @@ layout: default
     <!-- Post Featured cover -->
     {% if page.youtube-id %}
     <!-- Youtube Intro -->
-    {% include youtube.html id=page.youtube-id %} {% elsif page.cover %}
+    {% include youtube.html id=page.youtube-id %}
+    {% elsif page.cover %}
     <img
       class="featured-cover img-fluid"
       src="{{ site.baseurl }}/{{ page.cover }}"

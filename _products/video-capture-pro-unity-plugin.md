@@ -35,6 +35,18 @@ youtube-id: Jz6CONdDWDg
 * Windows (32-bit or 64-bit)
 * macOS (64-bit)
 
+<b>Showcases:</b>
+{% include youtube.html id='3obJ5ejvpAg' %}
+{% include youtube.html id='hBEMjfLrm50' %}
+{% include youtube.html id='FseT9nuhXks' %}
+{% include youtube.html id='qSsK5MAuHUc' %}
+
+<b>Screenshots:</b>
+![Video Capture Pro Screenshot 1](/assets/images/video-capture-pro-unity-plugin/screenshot-1.png)
+![Video Capture Pro Screenshot 2](/assets/images/video-capture-pro-unity-plugin/screenshot-2.png)
+![Video Capture Pro Screenshot 3](/assets/images/video-capture-pro-unity-plugin/screenshot-3.png)
+![Video Capture Pro Screenshot 4](/assets/images/video-capture-pro-unity-plugin/screenshot-4.png)
+
 <b>FAQ:</b>
 <ul style="list-style-type: none;">
 <li>
@@ -139,9 +151,3 @@ Software encoding: Up to 8K (7680 x 4320)
 </li>
 
 </ul>
-
-<b>Screenshots:</b>
-![Video Capture Pro Screenshot 1](/assets/images/video-capture-pro-unity-plugin/screenshot-1.png)
-![Video Capture Pro Screenshot 2](/assets/images/video-capture-pro-unity-plugin/screenshot-2.png)
-![Video Capture Pro Screenshot 3](/assets/images/video-capture-pro-unity-plugin/screenshot-3.png)
-![Video Capture Pro Screenshot 4](/assets/images/video-capture-pro-unity-plugin/screenshot-4.png)
