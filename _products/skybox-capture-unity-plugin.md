@@ -6,11 +6,14 @@ tags: ['Skybox', '360', 'Cubemap', 'Unity Plugin']
 summary: Skybox Capture will help you to capture your fantastic scene in Unity application.
 asset-store-url: https://assetstore.unity.com/packages/tools/camera/skybox-capture-93266?aid=1100l9ebS
 asset-store-widget: https://assetstore.unity.com/linkmaker/embed/package/93266/widget?aid=1100l9ebS
+price: 4.99
 order: 4
 youtube-id: hx4Lv0AA5_4
 ---
 
 <b>Skybox Capture</b> assets will help you to capture your fantastic scene in Unity app.
+
+<b>Price:</b> ${{page.price}}
 
 <b>Supported Projection Type:</b>
 * Equirectangular
