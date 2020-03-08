@@ -7,5 +7,5 @@ gumroad-store-url: https://gum.co/aqwVBW
 price: 39.99
 ---
 
-<iframe src="https://evereal.s3-us-west-1.amazonaws.com/video_capture/README.pdf" width="100%" height="1440px">
+<iframe src="https://evereal.s3-us-west-1.amazonaws.com/video_capture/README.pdf?v=2.1.1" width="100%" height="1440px">
 </iframe>
