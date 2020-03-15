@@ -12,6 +12,8 @@ order: 2
 youtube-id: -PAs3mHBNZA
 ---
 
+<h4><a href="/docs/youtube-dl-video-player/">Document</a></h4>
+
 <b>Youtube DL Video Player</b> is a plugin that help you play videos from youtube.com and a few [more sites](https://ytdl-org.github.io/youtube-dl/supportedsites.html) in your Unity game.
 
 <b>Price:</b> ${{page.price}}
