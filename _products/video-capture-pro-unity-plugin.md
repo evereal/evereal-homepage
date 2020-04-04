@@ -12,7 +12,7 @@ order: 1
 youtube-id: agd0Q3xvB2U
 ---
 
-<h4><a href="/docs/video-capture-pro-unity-plugin/">Document</a> <span style="font-size: 18px;">&nbsp;|&nbsp;</span> <a href="https://evereal.s3-us-west-1.amazonaws.com/video_capture/VideoCaptureTrial_Latest.unitypackage?v=2.1.2.1">Free Trail</a></h4>
+<h4><a href="/docs/video-capture-pro-unity-plugin/">Document</a> <span style="font-size: 18px;">&nbsp;|&nbsp;</span> <a href="https://evereal.s3-us-west-1.amazonaws.com/video_capture/VideoCaptureTrial_Latest.unitypackage?v=2.1.3">Free Trail</a></h4>
 
 <b>Video Capture</b> is a plugin that enables you, the Unity developer, to capture video and audio from your Unity application. It’s great for recording video trailers, demos and in-app footage for your Unity-based game or app. It’s fast, flexible and easy to use. When the video is recorded you decide how it’s handled. Give your users complete freedom to share it, restrict it to playback from within your app, or anything in between.
 
@@ -20,7 +20,8 @@ youtube-id: agd0Q3xvB2U
 
 <b>Features:</b>
 * Extremely easy to use
-* Capture video from any setup camera
+* Capture video from any camera
+* Capture video from screen with cursor
 * Capture video from render texture
 * Capture audio inside scene
 * Capture audio from microphone
@@ -30,6 +31,8 @@ youtube-id: agd0Q3xvB2U
 * Stereo video capture (Left Right, Up Bottom)
 * 360 video capture
 * 360 stereo video capture (Left Right, Up Bottom)
+* Convert video to other container wmv, mkv, avi, flv, etc.
+* Convert video to gif
 * Real-time and offline capture
 * Linear and Gamma color spaces supported
 
