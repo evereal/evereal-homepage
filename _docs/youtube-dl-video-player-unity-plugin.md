@@ -3,7 +3,7 @@ layout: document
 title: Youtube DL Video Player Unity Plugin Document
 asset-store-url: https://assetstore.unity.com/packages/tools/video/youtube-dl-video-player-161547?aid=1100l9ebS
 asset-store-widget: https://assetstore.unity.com/linkmaker/embed/package/161547/widget?aid=1100l9ebS
-gumroad-store-url: https://gum.co/tngnK
+# gumroad-store-url: https://gum.co/tngnK
 price: 24.99
 ---
 
