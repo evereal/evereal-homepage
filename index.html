@@ -21,11 +21,13 @@ title: VR/AR Developer
 
 <!-- We reopen main-content and container -->
 <div class="container">
+    {% if site.promo_aff %}
     <center>
-        <a target="_blank" href="https://assetstore.unity.com/?on_sale=true&orderBy=1&aid=1100l9ebS">
-            <img style="width: 100%; padding-bottom: 40px;" src="/assets/images/unity-spring-sale-display.jpg" />
+        <a target="_blank" href="{{site.promo_aff}}">
+            <img style="width: 100%; margin-bottom: 40px;" src="{{site.promo_img}}" />
         </a>
     </center>
+    {% endif %}
 
     <div class="main-content">
     <!-- Featured

@@ -13,6 +13,12 @@ layout: default
       <h1 class="posttitle">{{ page.title }}</h1>
     </div>
 
+    {% if site.promo_aff %}
+    <a target="_blank" href="{{site.promo_aff}}">
+      <img style="width: 100%;" src="{{site.promo_img}}" />
+    </a>
+    {% endif %}
+
     <!-- Product Content -->
     <div class="article-post">
       {{content}}
