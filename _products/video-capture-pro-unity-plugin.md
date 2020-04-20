@@ -7,12 +7,12 @@ summary: Video Capture is a plugin that enables the developers to capture video 
 asset-store-url: https://assetstore.unity.com/packages/tools/video/video-capture-pro-155663?aid=1100l9ebS
 asset-store-widget: https://assetstore.unity.com/linkmaker/embed/package/155663/widget?aid=1100l9ebS
 # gumroad-store-url: https://gum.co/aqwVBW
-price: 59.99
+price: 39.99
 order: 1
 youtube-id: agd0Q3xvB2U
 ---
 
-<h4><a href="/docs/video-capture-pro-unity-plugin/">Document</a> <span style="font-size: 18px;">&nbsp;|&nbsp;</span> <a href="https://evereal.s3-us-west-1.amazonaws.com/video_capture/VideoCaptureTrial_Latest.unitypackage?v=2.2.0">Free Trail</a></h4>
+<h4><a href="/docs/video-capture-pro-unity-plugin/">Document</a> <span style="font-size: 18px;">&nbsp;|&nbsp;</span> <a href="https://evereal.s3-us-west-1.amazonaws.com/video_capture/VideoCaptureTrial_Latest.unitypackage?v=2.2.2">Free Trail</a></h4>
 
 <b>Video Capture</b> is a plugin that enables you, the Unity developer, to capture video and audio from your Unity application. It’s great for recording video trailers, demos and in-app footage for your Unity-based game or app. It’s fast, flexible and easy to use. When the video is recorded you decide how it’s handled. Give your users complete freedom to share it, restrict it to playback from within your app, or anything in between.
 
