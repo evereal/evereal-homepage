@@ -7,12 +7,12 @@ summary: Video Capture is a plugin that enables the developers to capture video 
 asset-store-url: https://assetstore.unity.com/packages/tools/video/video-capture-pro-155663?aid=1100l9ebS
 asset-store-widget: https://assetstore.unity.com/linkmaker/embed/package/155663/widget?aid=1100l9ebS
 # gumroad-store-url: https://gum.co/aqwVBW
-price: 39.99
+price: 49.99
 order: 1
 youtube-id: agd0Q3xvB2U
 ---
 
-<h4><a href="/docs/video-capture-pro-unity-plugin/">Document</a> <span style="font-size: 18px;">&nbsp;|&nbsp;</span> <a href="https://evereal.s3-us-west-1.amazonaws.com/video_capture/VideoCaptureTrial_Latest.unitypackage?v=2.2.2">Free Trail</a></h4>
+<h4><a href="/docs/video-capture-pro-unity-plugin/">Document</a> <span style="font-size: 18px;">&nbsp;|&nbsp;</span> <a href="https://evereal.s3-us-west-1.amazonaws.com/video_capture/VideoCaptureTrial_Latest.unitypackage?v=2.3.1">Free Trail</a></h4>
 
 <b>Video Capture</b> is a plugin that enables you, the Unity developer, to capture video and audio from your Unity application. It’s great for recording video trailers, demos and in-app footage for your Unity-based game or app. It’s fast, flexible and easy to use. When the video is recorded you decide how it’s handled. Give your users complete freedom to share it, restrict it to playback from within your app, or anything in between.
 
@@ -25,16 +25,15 @@ youtube-id: agd0Q3xvB2U
 * Capture video from render texture
 * Capture audio inside scene
 * Capture audio from microphone
-* Multi camera capture simultaneously
-* Live streaming to remote streaming services (Such as Youtube, Facebook)
+* Multiple codec support (H.264, H.265, FFV1, VP8, VP9)
+* Multiple cameras capture simultaneously
+* Live streaming to remote streaming services (Youtube, Facebook, etc.)
 * Up to 8K video capture
-* Up to 16K screenshot capture
+* Up to 16K screenshot or sequence images capture
 * Stereo video capture (Left Right, Up Bottom)
-* 360 video capture
+* 360 video capture (Equirectangular, Cubemap)
 * 360 stereo video capture (Left Right, Up Bottom)
-* Convert video to other container wmv, mkv, avi, flv, etc.
-* Convert video to gif
-* Real-time and offline capture
+* Real-time and Offline capture supported
 * Linear and Gamma color spaces supported
 
 <b>Supported Platforms:</b>
@@ -51,7 +50,6 @@ youtube-id: agd0Q3xvB2U
 ![Video Capture Pro Screenshot 1](/assets/images/video-capture-pro-unity-plugin/screenshot-1.png)
 ![Video Capture Pro Screenshot 2](/assets/images/video-capture-pro-unity-plugin/screenshot-2.png)
 ![Video Capture Pro Screenshot 3](/assets/images/video-capture-pro-unity-plugin/screenshot-3.png)
-![Video Capture Pro Screenshot 4](/assets/images/video-capture-pro-unity-plugin/screenshot-4.png)
 
 <b>FAQ:</b>
 <ul style="list-style-type: none;">
@@ -154,6 +152,28 @@ Software encoding: Up to 8K (7680 x 4320)
 </li>
 <li>
 <b>A:</b> The Video Capture Pro asset includes a sample wav audio file. macOS version Unity 2017 has a bug import wav file, exclude the wav audio file then you will import assets successfully.
+</li>
+
+<li>
+<br>
+</li>
+
+<li>
+<b>Q: How can I record game UI with Video Capture?</b>
+</li>
+<li>
+<b>A:</b> Please change Capture Source to SCREEN, and you can try the demo “Demo_02_FromScreen” which will record game UI.
+</li>
+
+<li>
+<br>
+</li>
+
+<li>
+<b>Q: I am using Windows, why does the program exit after enable the GPU encoding?</b>
+</li>
+<li>
+<b>A:</b> There might be exceptions during capturing with GPU, please make sure you are using Direct3D11 for Windows Graphic API.
 </li>
 
 </ul>
