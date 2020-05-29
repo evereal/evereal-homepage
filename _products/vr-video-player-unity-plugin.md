@@ -7,38 +7,43 @@ summary: VR Video Player will help you to setup virtual reality video experience
 asset-store-url: https://assetstore.unity.com/packages/tools/video/vr-video-player-82597?aid=1100l9ebS
 asset-store-widget: https://assetstore.unity.com/linkmaker/embed/package/82597/widget?aid=1100l9ebS
 order: 3
-price: 19.99
-youtube-id: h86tbW6l5B4
+price: 24.99
+youtube-id: DN2-UpvsaxU
 ---
 
+<h4><a href="/docs/vr-video-player-unity-plugin/">Document</a></h4>
+
 <b>VR Video Player</b> assets will help you to setup virtual reality video experience in your Unity app.
-Setup process will be extremely easy, you can enable the all VR formats video play functionality only in 15 seconds!
+Setup process will be extremely easy, you can enable the all VR formats video play functionality only in 10 seconds!
 
 <b>Price:</b> ${{page.price}}
 
-<b>Supported VR SDK:</b>
-* Google Cardboard
-* Google Daydream
+<b>Supported VR Platform:</b>
+* Oculus Quest
 * Oculus GearVR
 * Oculus Rift
 * HTC Vive
+
+<b>Supported VR Interaction:</b>
+* Gaze Interaction
+* Controller Interaction (Comming soon)
 
 <b>Supported Platform:</b>
 * Windows
 * macOS
 * Android
-* iOS (Available in Unity 5.6.2 or later)
+* iOS
 
 <b>Supported Video Player:</b>
-* Easy Movie Texture
-* AVPro Video
-* Vive Media Decoder
+* Unity Video Player
+* Easy Movie Texture (Comming soon)
+* AVPro Video (Comming soon)
 
 <b>Supported VR Video Format:</b>
-* 2D/3D
-* 180/180-3D
-* 360/360-3D
-* (3D format include Side-by-Side and Up-Down)
+* Mono
+* 180
+* 360
+* Stereo (Left/Right and Top/Bottom)
 
 <b>Screenshots:</b>
 ![VR Video Player Screenshot 1](/assets/images/vr-video-player-unity-plugin/screenshot-1.png)
