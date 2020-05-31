@@ -11,9 +11,18 @@ order: 4
 youtube-id: hx4Lv0AA5_4
 ---
 
-<b>Skybox Capture</b> assets will help you to capture your fantastic scene in Unity app.
+<h4><a href="/docs/skybox-capture-unity-plugin/">Document</a></h4>
+
+<b>Skybox Capture</b> assets will help you to capture your fantastic scene with skybox image in Unity app.
 
 <b>Price:</b> ${{page.price}}
+
+<b>Features:</b>
+* Extremely easy to use
+* Capture to equirectangular or cubemap supported
+* Capture to png or jpg supported
+* Up to 16K (16384 x 8192) image resolution
+* Linear and Gamma color spaces supported
 
 <b>Supported Projection Type:</b>
 * Equirectangular
@@ -26,3 +35,4 @@ youtube-id: hx4Lv0AA5_4
 ![Skybox Capture Screenshot 2](/assets/images/skybox-capture-unity-plugin/screenshot-2.png)
 ![Skybox Capture Screenshot 3](/assets/images/skybox-capture-unity-plugin/screenshot-3.png)
 ![Skybox Capture Screenshot 4](/assets/images/skybox-capture-unity-plugin/screenshot-4.png)
+![Skybox Capture Screenshot 5](/assets/images/skybox-capture-unity-plugin/screenshot-5.png)
