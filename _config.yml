@@ -9,8 +9,8 @@ baseurl:
 email: 'dev@evereal.com'
 google_analytics: UA-134146948-5
 disqus: eve-real
-# promo_aff: https://assetstore.unity.com/?on_sale=true&orderBy=1&aid=1100l9ebS
-# promo_img: /assets/images/unity-spring-sale-display.jpg
+promo_aff: https://assetstore.unity.com/mega-bundles/fantastic-fantasy?aid=1100l9ebS
+promo_img: /assets/images/fantastic-fantasy-mega-bundle-display.jpg
 
 # Authors
 authors:
