@@ -9,6 +9,7 @@ categories:
 author: evereal
 tutorial: true
 summary: This tutorial will simply walk you through how to set up Video Capture plugin to record a 2D game in Unity.
+permalink: /tutorials/how-to-capture-video-in-unity-2d
 video-url-1: https://evereal.s3-us-west-1.amazonaws.com/video_capture/how_capture_video_2d/1
 video-url-2: https://evereal.s3-us-west-1.amazonaws.com/video_capture/how_capture_video_2d/2
 video-url-3: https://evereal.s3-us-west-1.amazonaws.com/video_capture/how_capture_video_2d/3
