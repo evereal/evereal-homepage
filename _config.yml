@@ -14,14 +14,14 @@ promo_img: /assets/images/fantastic-fantasy-mega-bundle-display.jpg
 
 # Authors
 authors:
-  john:
+  evereal:
     name: evereal
     display_name: Evereal
-    image: /assets/images/logo.png
+    image: /assets/images/avatar.png
     email: dev@evereal.com
     web: evereal.com
-    twitter:
-    description: Hi, I am Evereal.
+    facebook: https://www.facebook.com/everealgame
+    description: Hi, I am Evereal. Focus on the best VR/AR products.
 
 # Collections
 collections:
@@ -34,19 +34,19 @@ collections:
 
 # Plugins
 plugins:
-  # - jekyll-archives
+  - jekyll-archives
   - jekyll-paginate
   - jekyll-seo-tag
 
 permalinks: pretty
 
 # Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: 'category/:name/'
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: 'category/:name/'
 
 # Other
 markdown: kramdown

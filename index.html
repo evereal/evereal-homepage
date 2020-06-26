@@ -9,12 +9,12 @@ title: VR/AR Developer
 ================================================== -->
 <section class="intro">
 <center>
-<img src="/assets/images/logo.png" height="128px" width="128px" alt="Evereal">
+<img src="/assets/images/logo.png" height="128px" width="128px" alt="Evereal" />
 <br><br>
 <h1 style="color:white">Hi, I am <span>Evereal.</span></h1>
-<br>
+<br />
 <h3>VR/AR Developer</h3>
-<br>
+<br />
 <a target="_blank" href="https://assetstore.unity.com/publishers/26911/?aid=1100l9ebS" class="btn">Visit my unity asset store</a>
 </center>
 </section>
@@ -30,17 +30,51 @@ title: VR/AR Developer
     {% endif %}
 
     <div class="main-content">
-    <!-- Featured
-    ================================================== -->
-    <section class="featured-posts">
-        <div class="section-title">
-            <h2><span>Products</span></h2>
-        </div>
-        <div class="row listfeaturedtag">
-            {% assign sorted_products = site.products | sort: "order" %}
-            {% for product in sorted_products %}
-                {% include product-card.html %}
-            {% endfor %}
-        </div>
-    </section>
-</section>
+        <!-- Featured
+        ================================================== -->
+        <section class="featured-posts">
+            <div class="section-title">
+                <h2><span>Products</span></h2>
+            </div>
+            <div class="row listfeaturedtag">
+                {% assign sorted_products = site.products | sort: "order" %}
+                {% for product in sorted_products %}
+                    {% include product-card.html %}
+                {% endfor %}
+            </div>
+        </section>
+        <!-- Tutorials
+        ================================================== -->
+        {% if paginator.previous_page %}
+            {% if paginator.previous_page > 0 %}
+                <div id="jumptopageof"></div>
+            {% endif %}
+        {% endif %}
+        <section class="recent-posts row">
+            <div class="col-sm-8">
+                <div class="section-title">
+                    <h2><span>Tutorials</span></h2>
+                </div>
+                <div class="masonrygrid row listrecent">
+                    {% for post in paginator.posts %}
+                    {% if post.tutorial == true %}
+                    {% include postbox.html %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+
+                <!-- Pagination -->
+                <div class="bottompagination">
+                    <span class="navigation" role="navigation">
+                        {% include pagination.html %}
+                    </span>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-sm-4">
+                {% include sidebar.html %}
+            </div>
+        </section>
+    </div>
+</div>

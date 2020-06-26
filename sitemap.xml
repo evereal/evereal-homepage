@@ -33,6 +33,18 @@ layout: null
       <priority>1.0</priority>
     </url>
   {% endfor %}
+  {% for doc in site.docs %}
+    <url>
+      <loc>{{ site.baseurl }}{{ site.url }}{{ doc.url }}</loc>
+      {% if doc.lastmod == null %}
+        <lastmod>{{ doc.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ doc.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
   {% for post in site.posts %}
     <url>
       <loc>{{ site.baseurl }}{{ site.url }}{{ post.url }}</loc>

@@ -2,7 +2,7 @@
 layout: product
 cover:  assets/images/youtube-dl-video-player-unity-plugin/cover.png
 title: Youtube DL Video Player Unity Plugin
-tags: ['Youtube', 'Video Player', 'Unity Plugin']
+# tags: ['Youtube', 'Video Player', 'Unity Plugin']
 summary: Youtube DL Video Player is a plugin that help you play videos from youtube.com and a few more sites in your Unity game.
 asset-store-url: https://assetstore.unity.com/packages/tools/video/youtube-dl-video-player-161547?aid=1100l9ebS
 asset-store-widget: https://assetstore.unity.com/linkmaker/embed/package/161547/widget?aid=1100l9ebS
