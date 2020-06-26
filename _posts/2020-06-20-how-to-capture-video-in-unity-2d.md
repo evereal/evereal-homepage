@@ -4,9 +4,8 @@ cover: assets/images/video-capture-pro-unity-plugin/how-capture-video-2d.png
 title: How to Capture Video in Unity (2D Game)
 date: 2020-06-20 12:00:00
 categories:
-  - VideoCapture
+  - VideoCaptureTutorials
   - Unity
-  - Tutorials
 author: evereal
 tutorial: true
 summary: This tutorial will simply walk you through how to set up Video Capture plugin to record a 2D game in Unity.
