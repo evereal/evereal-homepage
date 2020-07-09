@@ -47,4 +47,4 @@ Other tutorials you may interested:
 * [How to Capture Video in Unity (2D Game)](/tutorials/how-to-capture-video-in-unity-2d)
 
 Download the full project:
-* [https://github.com/evereal/video-capture-unity-2d-sample](https://github.com/evereal/video-capture-unity-2d-sample)
+* [https://github.com/evereal/video-capture-unity-3d-sample](https://github.com/evereal/video-capture-unity-3d-sample)
