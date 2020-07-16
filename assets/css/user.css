@@ -116,11 +116,11 @@
   clear: both;
 }
 
-@media only screen and (min-width:37.5rem) {
+/* @media only screen and (min-width:37.5rem) {
   .youtube_video {
     margin-top: 2.5rem;
   }
-}
+} */
 
 .youtube {
   background-color: #000;
