@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: assets/images/video-capture-pro-unity-plugin/how-capture-video-2d.png
-title: How to Capture Video in Unity (2D Game)
+title: How to Capture Video in Unity 2D Game
 date: 2020-06-20 12:00:00
 categories:
   - VideoCapture
@@ -39,7 +39,8 @@ Finally, play your video!
 This is just a very basic getting started guide, please visit the <a href="/docs/video-capture-pro-unity-plugin/" target="_blank">document</a> for more details and usages.
 
 Other tutorials you may interested:
-* [How to Capture Video in Unity (3D Game)](/tutorials/how-to-capture-video-in-unity-3d)
+* [How to Capture Video in Unity 3D Game](/tutorials/how-to-capture-video-in-unity-3d)
+* [How to Capture Video in Unity Cinemachine](/tutorials/how-to-capture-video-in-unity-cinemachine)
 
 Download the full project:
 * [https://github.com/evereal/video-capture-unity-2d-sample](https://github.com/evereal/video-capture-unity-2d-sample)

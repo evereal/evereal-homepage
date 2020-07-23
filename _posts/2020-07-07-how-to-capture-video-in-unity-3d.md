@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: assets/images/video-capture-pro-unity-plugin/how-capture-video-3d.png
-title: How to Capture Video in Unity (3D Game)
+title: How to Capture Video in Unity 3D Game
 date: 2020-07-07 12:00:00
 categories:
   - VideoCapture
@@ -44,7 +44,8 @@ Play the game, start the video record session (click shortcut F1 since the game 
 This is just a very basic getting started guide, please visit the <a href="/docs/video-capture-pro-unity-plugin/" target="_blank">document</a> for more details and usages.
 
 Other tutorials you may interested:
-* [How to Capture Video in Unity (2D Game)](/tutorials/how-to-capture-video-in-unity-2d)
+* [How to Capture Video in Unity 2D Game](/tutorials/how-to-capture-video-in-unity-2d)
+* [How to Capture Video in Unity Cinemachine](/tutorials/how-to-capture-video-in-unity-cinemachine)
 
 Download the full project:
 * [https://github.com/evereal/video-capture-unity-3d-sample](https://github.com/evereal/video-capture-unity-3d-sample)
