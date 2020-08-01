@@ -9,8 +9,8 @@ baseurl:
 email: 'dev@evereal.com'
 google_analytics: UA-134146948-5
 disqus: # eve-real
-promo_aff: https://assetstore.unity.com/mega-bundles/power-tools?aid=1100l9ebS
-promo_img: /assets/images/affiliate/tools-mb-display.jpg
+# promo_aff: https://assetstore.unity.com/mega-bundles/power-tools?aid=1100l9ebS
+# promo_img: /assets/images/affiliate/tools-mb-display.jpg
 
 # Authors
 authors:
