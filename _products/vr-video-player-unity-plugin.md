@@ -26,7 +26,7 @@ Setup process will be extremely easy, you can enable the all VR formats video pl
 
 <b>Supported VR Interaction:</b>
 * Gaze Interaction
-* Controller Interaction (Comming soon)
+* Controller Interaction
 
 <b>Supported Platform:</b>
 * Windows
@@ -36,8 +36,8 @@ Setup process will be extremely easy, you can enable the all VR formats video pl
 
 <b>Supported Video Player:</b>
 * Unity Video Player
-* Easy Movie Texture (Comming soon)
-* AVPro Video (Comming soon)
+* Easy Movie Texture
+* AVPro Video
 
 <b>Supported VR Video Format:</b>
 * Mono
