@@ -7,5 +7,5 @@ asset-store-widget: https://assetstore.unity.com/linkmaker/embed/package/161547/
 price: 24.99
 ---
 
-<iframe src="https://evereal.s3-us-west-1.amazonaws.com/youtube_video_player/README.pdf?v=1.1.3" width="100%" height="1440px">
+<iframe src="https://evereal.s3-us-west-1.amazonaws.com/youtube_video_player/README.pdf?v=1.1.4" width="100%" height="1440px">
 </iframe>
